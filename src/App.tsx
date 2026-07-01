@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import ResumePDF from "./assets/images/Hariselvan_resume_update_currently.pdf";
+import ProfileImage from "./assets/images/profile_image.jpeg";
 import {
   Sparkles,
   Terminal,
@@ -828,7 +829,7 @@ export default function App() {
                 <div className="absolute inset-6 rounded-full overflow-hidden border border-white/15 z-20 flex items-center justify-center bg-slate-950">
                   <div className="absolute inset-0">
                     <img
-                      src="src/assets/images/WhatsApp Image 2025-12-08 at 9.28.01 PM.jpeg"
+                      src="https://res.cloudinary.com/dva0ulldj/image/upload/v1778503061/WhatsApp_Image_2025-12-08_at_9.28.01_PM_jwynw8.jpg"
                       alt="Hariselvan S"
                       className="w-full h-full object-cover rounded-full filter brightness-90 hover:brightness-100 transition duration-300 animate-fade-in"
                       referrerPolicy="no-referrer"
